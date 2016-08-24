@@ -42,3 +42,26 @@ body {
 .author {
 	font-size: 0.8em;
 }
+#ul_pic li {
+	border: 1px solid gray;
+}
+#ol li {
+	font-style: bold;
+}
+table {
+	border-collapse: collapse;
+	width: 100%;
+	height: 20px;
+}
+th {
+	text-align: left;
+	background-color: black;
+	color: white;
+}
+#lastline {
+	background-color: gray;
+	color: white;
+}
+.center {
+	text-align: center;
+}
