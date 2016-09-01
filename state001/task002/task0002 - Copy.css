@@ -1,0 +1,59 @@
+.top {
+	background-color: gray;
+	border: 1px solid black;
+	overflow: auto;
+    
+}
+#guide li {
+	display: inline;
+	float: right;
+	padding-right: 10px;
+}
+
+#guide li a {
+	color: white;
+}
+ul {
+	padding-top: 15px;
+}
+#icon {
+	float: left;
+	height: 80px;
+}
+h2 {
+	clear: left;
+}
+.top {
+	background-color: black;
+}
+.article {
+	border: 1px solid black;
+	padding: 10px;
+	margin: 10px;
+	background-color: white;
+	text-align: center;
+}
+body {
+	background-color: gray;
+}
+#image1 {
+	display: block;
+	margin: 5px auto;
+}
+.author {
+	font-size: 0.8em;
+}
+table {
+	border-collapse: collapse;
+	width: 100%;
+	height: 20px;
+}
+th {
+	text-align: left;
+	background-color: black;
+	color: white;
+}
+#lastline {
+	background-color: gray;
+	color: white;
+}

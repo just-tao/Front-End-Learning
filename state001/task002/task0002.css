@@ -1,67 +1,65 @@
-.top {
-	background-color: gray;
-	border: 1px solid black;
-	overflow: auto;
-    
+body {
+	background-color: silver;
 }
-#guide li {
+#nav-ul li {
 	display: inline;
-	float: right;
-	padding-right: 10px;
 }
-
-#guide li a {
+#nav-ul li a {
 	color: white;
 }
-ul {
-	padding-top: 15px;
+#nav-ul li a:hover {
+	color: blue;
 }
-#icon {
+#nav-icon {
 	float: left;
-	height: 80px;
+	width: 100px;
 }
-h2 {
-	clear: left;
-}
-.top {
+.nav-div {
 	background-color: black;
+	border: 1px solid black;
+	text-align: right;
 }
 .article {
+	clear: left;
 	border: 1px solid black;
-	padding: 10px;
 	margin: 10px;
+	padding: 10px;
 	background-color: white;
 }
-body {
-	background-color: gray;
-}
-#image1 {
+#fig1 {
 	display: block;
-	margin: 5px auto;
+	margin: auto;
 }
-.author {
-	font-size: 0.8em;
-}
-#ul_pic li {
-	border: 1px solid gray;
-}
-#ol li {
-	font-style: bold;
+#ul-fig li {
+	display: inline-block;
+	border: 1px solid black;
+	padding: 10px;
+	text-align: center;
+	margin: 10px auto;
 }
 table {
-	border-collapse: collapse;
 	width: 100%;
-	height: 20px;
+	border-collapse: collapse;
 }
-th {
-	text-align: left;
+table th {
 	background-color: black;
 	color: white;
 }
-#lastline {
-	background-color: gray;
-	color: white;
+table tr:last-child {
+	background-color: silver;
 }
-.center {
-	text-align: center;
+.form-lable {
+	display: inline-block;
+	text-align: right;
+	width: 30%
+}
+.form-hint {
+    font-size: 60%;
+    padding-left: 30%;
+    color: gray;
+}
+#btn-submit {
+	width: 100%;
+	color: white;
+	background-color: blue;
 }

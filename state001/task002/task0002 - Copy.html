@@ -6,9 +6,9 @@
 	<link rel="stylesheet" type="text/css" href="task0002.css">
 </head>
 <body>
-	<div class="nav-div">
-		<img src="baidu.png" id="nav-icon">
-	    <ul id="nav-ul">
+	<div class="top">
+		<img src="baidu.png" id="icon">
+	    <ul id="guide">
 	    	<li><a href="">导航超链接</a></li>
 	    	<li><a href="">导航超链接</a></li>
 	    	<li><a href="">导航超链接</a></li>
@@ -20,7 +20,7 @@
 	    <h3>文章二级标题</h3>
 	    <p class="author">文章作者</p>
 	    <p>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，<br>换行了<br>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，<b>这里有个粗体</b>，这是一个很长的段落。
-	    <img src="test.jpeg" width="300px" height="200px" id="fig1">
+	    <img src="test.jpeg" width="300px" height="200px" id="image1">
 	    这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，<a href="http://ife.baidu.com">这里有一个链接</a>，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落。<a href="http://ife.baidu.com" target="_blank">这个链接将打开一个新标签</a></p>
 	    
     </div>
@@ -39,28 +39,18 @@
     </div>
     <div class="article">
 	    <h3>图片</h3>
-	    <ul style="list-style-type:none;" id="ul-fig">
-	    	<li>
-		    	<p>好看的图片</p>
-		    	<img src="test.jpeg" width="300px" height="200px">
-	    	</li>
-	    	<li>
-		    	<p>好看的图片</p>
-		    	<img src="test.jpeg" width="300px" height="200px">
-	    	</li>	    	<li>
-		    	<p>好看的图片</p>
-		    	<img src="test.jpeg" width="300px" height="200px">
-	    	</li>	    	<li>
-		    	<p>好看的图片</p>
-		    	<img src="test.jpeg" width="300px" height="200px">
-	    	</li>
+	    <ul style="list-style-type:none;" id="ul_pic">
+	    	<li>好看的图片<img src="test.jpeg" width="300px" height="200px"></li>
+	    	<li>好看的图片<img src="test.jpeg" width="300px" height="200px"></li>
+	    	<li>好看的图片<img src="test.jpeg" width="300px" height="200px"></li>
+	    	<li>好看的图片<img src="test.jpeg" width="300px" height="200px"></li>
 	    </ul>
 	</div>
 	<div class="article">
 	    <h2>最后一篇文章</h2>
 	    <h3>文章二级标题</h3>
 	    <pre>文章作者 文章发表时间</pre>
-	    <ol id="rank-ol">
+	    <ol id="ol">
 	    	<li><b>排名1</b></li>
 	    	<li><b>排名2</b></li>
 	    	<li><b>排名3</b></li>
@@ -83,7 +73,7 @@
 	    			<td>内容</td>
 	    			<td><a href="">链接</a></td>
 	    		</tr>
-	    		<tr>
+	    		<tr id="lastline">
 	    			<td>总计</td>
 	    			<td colspan="2">1000</td>
 	    		</tr>
@@ -93,35 +83,39 @@
     <div class="article">
 	    <h2>这里以后是一个侧栏</h2>
 	    <h2>侧栏注册窗口标题</h2>
-	    <form>	    
-		    <lable class="form-lable">请输入邮箱地址：</lable>
-		    <input type="text" name="input" value="请输入文本" class="form-input">
-		    <p class="form-hint">邮箱地址请按要求输入</p>
-		    <lable class="form-lable">请输入密码：</lable>
-		    <input type="text" name="input" value="请输入文本" class="form-input">	 
-		    <br>
-		    <lable class="form-lable">请重复输入密码：</lable>
-		    <input type="text" name="input" value="请输入文本" class="form-input">
-		    <p class="form-hint">密码为6-16位英文数字</p>
-		    <label class="form-lable">性别：</label>
-		    <input type="radio" name="male" checked class="form-input">男
-		    <input type="radio" name="male" class="form-input">女
-		    <br>
-		    <label class="form-lable">城市：</label>		    		    
-		    	<select>
-		    		<option value="beijing">北京</option>
-		    		<option value="shanghai" selected>上海</option>
-		    	</select>
-		    <br>
-		    <label class="form-lable">爱好：</label>		    	
+	    <p class="center">
+	    	<lable>请输入邮箱地址：</lable>
+	    	<input type="text" name="input" value="请输入文本">
+	    </p>
+	    <p class="center">邮箱地址请按要求输入</p>
+	    <p class="center">
+	        <lable>请输入密码：</lable>
+	        <input type="text" name="input" value="请输入文本"></p>	    
+	    <p class="center">请重复输入密码：<input type="text" name="input" value="请输入文本"><p>
+	    <p class="center">密码为6-16位英文数字</p>
+	    <p class="center">
+	    	性别：<input type="radio" name="male" checked>男
+	    	<input type="radio" name="male">女
+	    </p>
+	    <p class="center">
+	    	城市：	    
+	    	<select>
+	    		<option value="beijing">北京</option>
+	    		<option value="shanghai" selected>上海</option>
+	    	</select>
+	    </p>
+	    <p class="center">
+	    	爱好：
 	    	<input type="checkbox" name="sports">运动
 	    	<input type="checkbox" name="arts">艺术  
-	    	<br>
-	    	<span class="form-lable">个人描述：</span>    
-	    	<textarea name="description" rows="2" cols="24" class="form-input">这是一个多行输入框，输入您的个人描述</textarea>
-	    	<br>  
-	    	<input type="submit" name="submit" value="确认提交" id="btn-submit">	    	
-		</form>
+	    </p>
+	    <p class="center">
+	    	<span>个人描述：</span>    
+	    	<textarea name="description" rows="2" cols="24">这是一个多行输入框，输入您的个人描述</textarea>  
+	    </p>
+	    <p class="center">
+	    	<input type="submit" name="submit" value="确认提交">	    	
+	    </p>
 	</div>
 	<p style="text-align: center;">版权所有&copy</p>
 </body>
