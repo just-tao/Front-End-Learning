@@ -1,0 +1,32 @@
+
+#div-name {
+	border: 1px solid black;
+	width: 160px;
+	float: left;
+	padding: 20px;
+}
+#div-intro {
+	border: 1px solid black;
+	margin-left: 220px;
+	margin-right: 140px;
+	padding: 20px;
+}
+#div-pic {
+	border: 1px solid black;
+	width: 80px;
+	padding: 20px;
+	float: right;
+}
+#div-pic img {
+	display: block;
+	border: 1px solid black;
+	margin: 20px auto;
+}
+#main {
+	border: 1px solid black;
+	padding: 20px;
+	background-color: #eee;
+	margin: 0 auto;
+	min-width: 600px;
+	overflow: auto;
+}
