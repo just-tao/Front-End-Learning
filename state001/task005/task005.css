@@ -1,0 +1,79 @@
+body {
+	background-color: silver;
+	min-width: 900px;
+}
+#nav-ul li {
+	display: inline;
+}
+#nav-ul li a {
+	color: white;
+}
+#nav-ul li a:hover {
+	color: blue;
+}
+#nav-icon {
+	float: left;
+	width: 100px;
+}
+.nav-div {
+	background-color: black;
+	border: 1px solid black;
+	text-align: right;
+}
+.article,.sidebar {
+	clear: left;
+	border: 1px solid black;
+	margin: 10px;
+	padding: 10px;
+	background-color: white;
+}
+.article {
+	margin-right: 480px;
+}
+#fig1 {
+	display: block;
+	margin: auto;
+}
+#ul-fig li {
+	display: inline-block;
+	border: 1px solid black;
+	padding: 10px;
+	text-align: center;
+	margin: 10px auto;
+}
+ol {
+	font-weight: bold;
+}
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+table th {
+	background-color: black;
+	color: white;
+}
+table tr:last-child {
+	background-color: silver;
+}
+.form-lable,.person-desc{
+	display: inline-block;
+	text-align: right;
+	width: 30%
+}
+.person-desc {
+	float: left;
+}
+.form-hint {
+    font-size: 60%;
+    padding-left: 30%;
+    color: gray;
+}
+#btn-submit {
+	width: 100%;
+	color: white;
+	background-color: blue;
+}
+.sidebar {
+	float: right;
+	width: 430px;
+}
