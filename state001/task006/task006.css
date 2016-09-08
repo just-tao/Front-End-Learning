@@ -34,17 +34,26 @@ body {
 	margin-top: 45px;
 	color: #d45d5c;
 }
-.top_img {
+.middle_1 {
 	margin-top: 30px;
+	height: 301px;
 	width: 100%;
 }
-.top_img img {
-	width: 641px;
-	height: 301px;
+.middle_1 img {
+	width: 641px;	
 	float: left;
 }
-.top_img_head {
+.img_left {
+	width: 191px;
+	height: 100%;
+}
+.img_right {
+	width: 191px;
+	height: 100%;
+}
+.middle_1_text {
 	border-top: 2px solid #cc8091;
 	width: 203px;
+	margin-left: auto;
 	margin-right: 0;
 }
